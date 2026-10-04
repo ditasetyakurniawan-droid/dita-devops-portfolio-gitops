@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: harbor-dt.co.id/devops-apps/dita-devops-portfolio:c618392
+          image: harbor-dt.co.id/devops-apps/dita-devops-portfolio:7d95ead
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
